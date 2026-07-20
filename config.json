@@ -12,62 +12,21 @@
       "payload": "GET / HTTP/1.1\r\nHost: www.bc.game\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n\r\n"
     },
     {
-      "name": "Glo Free Browsing",
-      "network": "Glo",
-      "flag": "🇳🇬",
-      "server": "us3.ws-tun.xyz",
-      "port": 80,
-      "username": "sshstores-footballflicks72gmailcom",
-      "password": "aaaaaa",
-      "type": "ssh-ws",
-      "payload": "GET / HTTP/1.1\r\nHost: gloworld.com\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n\r\n"
-    },
-    {
-      "name": "Airtel Special",
-      "network": "Airtel",
-      "flag": "🇳🇬",
-      "server": "cz1.comnpmjs.com",
-      "port": 80,
-      "username": "sshmax-mdfelixqq",
-      "password": "2ssxvdks.grhq",
-      "type": "ssh-ws",
-      "payload": "GET wss://cz1.comnpmjs.com/ HTTP/1.1\r\nHost: cz1.comnpmjs.com\r\nUpgrade: Websocket\r\nConnection: Keep-Alive\r\n\r\n"
-    },
-    {
-      "name": "UK Server",
-      "network": "Vodafone",
-      "flag": "🇬🇧",
-      "server": "uk1.fastssh.com",
+      "name": "SSHStores US",
+      "network": "Global",
+      "flag": "🇺🇸",
+      "server": "us4.ws-tun.xyz",
       "port": 443,
-      "username": "fastssh-user123",
-      "password": "pass456",
-      "type": "ssl",
-      "sni": "www.vodafone.co.uk",
-      "payload": ""
-    },
-    {
-      "name": "SSH Direct",
-      "network": "MTN",
-      "flag": "🇳🇬",
-      "server": "ng1.sshserver.com",
-      "port": 22,
-      "username": "sshuser",
-      "password": "sshpass",
-      "type": "ssh",
-      "payload": ""
-    },
-    {
-      "name": "UDP Fast",
-      "network": "MTN",
-      "flag": "🇳🇬",
-      "server": "130.51.22.38",
-      "port": 7300,
-      "username": "udpuser",
-      "password": "udppass",
-      "type": "udp",
-      "payload": ""
+      "username": "sshstores-mdfelix22222",
+      "password": "MDFELIX22222",
+      "type": "ssh-ws",
+      "payload": "GET / HTTP/1.1\r\nHost: us4.ws-tun.xyz\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n\r\n"
     }
   ],
   "telegram": "https://t.me/APKBrainKiller_official",
-  "announcement": "."
+  "announcement": {
+    "enabled": false,
+    "message": "",
+    "color": "#ff0000"
+  }
 }
