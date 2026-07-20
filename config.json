@@ -1,0 +1,17 @@
+{
+  "tweaks": [
+    {
+      "name": "MTN Unlimited",
+      "network": "MTN",
+      "flag": "🇳🇬",
+      "server": "us3.ws-tun.xyz",
+      "port": 443,
+      "username": "sshstores-footballflicks72gmailcom",
+      "password": "aaaaaa",
+      "type": "ssh-ws",
+      "payload": "GET / HTTP/1.1\r\nHost: www.bc.game\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n\r\n"
+    }
+  ],
+  "telegram": "https://t.me/APKBrainKiller_official",
+  "announcement": "Welcome to ProxyVPN!"
+}
