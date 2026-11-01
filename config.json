@@ -4,10 +4,10 @@
     {
       "Name": "France Region 1",
       "Flag": "FR",
-      "SSHHost": "fr1.utloop.xyz",
+      "SSHHost": "ul-southafrica1.09vpn.com",
       "SSHPort": 22,
-      "Username": "france1-user",
-      "Password": "france1-password",
+      "Username": "u185104764",
+      "Password": "123456",
       "DropBear": 555,
       "SSLPort": 443,
       "ProxyPort": 8080
