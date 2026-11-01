@@ -363,7 +363,7 @@
   ],
 
   "Settings": {
-    "Announcement": "Welcome to ProxyVPN!",
+    "Announcement": "",
     "Telegram": "https://t.me/your_channel",
     "AutoReconnect": true,
     "ShowConnectionLogs": true
