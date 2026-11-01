@@ -1,1 +1,372 @@
 
+{
+  "Servers": [
+    {
+      "Name": "France Region 1",
+      "Flag": "FR",
+      "SSHHost": "fr1.utloop.xyz",
+      "SSHPort": 22,
+      "Username": "france1-user",
+      "Password": "france1-password",
+      "DropBear": 555,
+      "SSLPort": 443,
+      "ProxyPort": 8080
+    },
+    {
+      "Name": "France Region 2",
+      "Flag": "FR",
+      "SSHHost": "fr2.utloop.xyz",
+      "SSHPort": 22,
+      "Username": "france2-user",
+      "Password": "france2-password",
+      "DropBear": 550,
+      "SSLPort": 443,
+      "ProxyPort": 8080
+    },
+    {
+      "Name": "Germany Region",
+      "Flag": "DE",
+      "SSHHost": "ge.utloop.xyz",
+      "SSHPort": 22,
+      "Username": "germany-user",
+      "Password": "germany-password",
+      "DropBear": 550,
+      "SSLPort": 443,
+      "ProxyPort": 8080
+    },
+    {
+      "Name": "Poland Region",
+      "Flag": "PL",
+      "SSHHost": "po.utloop.xyz",
+      "SSHPort": 22,
+      "Username": "poland-user",
+      "Password": "poland-password",
+      "DropBear": 550,
+      "SSLPort": 443,
+      "ProxyPort": 8080
+    }
+  ],
+
+  "Tweaks": [
+    {
+      "Name": "BetterRoaming eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "my.betterroaming.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Cmlink eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "miniprogramuk.cmlink.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Firstly eSIM Unlimited",
+      "Direct": false,
+      "Websocket": true,
+      "Bug": "jobs.uber.com",
+      "SSL": true,
+      "Payload": "GET / HTTP/1.1[crlf]Host: [ws][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "GIGSKY eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "services.gigsky.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Jetpacglobal eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "enterprise.jetpacglobal.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Lebara Swiss eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "cockpit.lebara.ch",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "LOOPDL eSIM Unlimited",
+      "Direct": true,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": false,
+      "Payload": "POST / HTTP/1.1[crlf]Host: mms.vodafone.co.uk[crlf]Connection: Close[crlf]Content-length: 99999999999999999999999999999[crlf]Host: [host_port][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Redbull eSIM Unlimited",
+      "Direct": false,
+      "Websocket": true,
+      "Bug": "185.247.119.177",
+      "SSL": false,
+      "Payload": "HEAD ws://185.247.119.177 HTTP/1.1[crlf]Host: [ws][crlf]Upgrade: websocket[crlf][crlf]",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "SAILY eSIM Unlimited",
+      "Direct": false,
+      "Websocket": true,
+      "Bug": "admin.saily.com",
+      "SSL": false,
+      "Payload": "GET / HTTP/1.1[crlf]Host: [ws][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Textrapp eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "help-go.textrapp.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Truephone eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "account.go.staging.truphone.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Vodafone UK eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "downloads.vodafone.co.uk",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Yallo eSIM Unlimited",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "cockpit.yallo.ch",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "esim"
+    },
+    {
+      "Name": "Disney",
+      "Direct": false,
+      "Websocket": true,
+      "Bug": "x.em.disneyplus.com",
+      "SSL": false,
+      "Payload": "GET / HTTP/1.1[crlf]Host: x.em.disneyplus.com[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [ws][crlf]Upgrade: websocket[crlf][crlf]",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "disney"
+    },
+    {
+      "Name": "FB & Messenger",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "www.facebook.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "facebook"
+    },
+    {
+      "Name": "Google",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "www.google.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "google"
+    },
+    {
+      "Name": "Instagram",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "www.instagram.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "instagram"
+    },
+    {
+      "Name": "Movistar",
+      "Direct": true,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": false,
+      "Payload": "GET http://map.snapchat.com/ HTTP/1.1[crlf]Host: map.snapchat.com[crlf]X-Online-Host: map.snapchat.com[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf][split]CONNECT [host_port] [protocol][crlf][crlf]",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "movistar"
+    },
+    {
+      "Name": "Mobile Legend",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "login.ml.youngjoygame.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "mobilelegend"
+    },
+    {
+      "Name": "Netflix",
+      "Direct": false,
+      "Websocket": true,
+      "Bug": "updates.netflix.com",
+      "SSL": false,
+      "Payload": "GET / HTTP/1.1[crlf]Host: updates.netflix.com[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [ws][crlf]Upgrade: websocket[crlf][crlf]",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "netflix"
+    },
+    {
+      "Name": "PUBG",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "m.pubgmobile.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "pubg"
+    },
+    {
+      "Name": "Snapchat",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "www.snapchat.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "snapchat"
+    },
+    {
+      "Name": "Soundcloud",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "m.soundcloud.com",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "soundcloud"
+    },
+    {
+      "Name": "Speedtest",
+      "Direct": false,
+      "Websocket": false,
+      "Bug": "",
+      "SSL": true,
+      "Payload": "www.speedtest.net",
+      "CustomProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "",
+      "Flag": "router"
+    }
+  ],
+
+  "DNS": [
+    {
+      "Name": "Cloudflare",
+      "Primary": "1.1.1.1",
+      "Secondary": "1.0.0.1",
+      "Type": "UDP",
+      "Enabled": true
+    },
+    {
+      "Name": "Google DNS",
+      "Primary": "8.8.8.8",
+      "Secondary": "8.8.4.4",
+      "Type": "UDP",
+      "Enabled": true
+    },
+    {
+      "Name": "Quad9",
+      "Primary": "9.9.9.9",
+      "Secondary": "149.112.112.112",
+      "Type": "UDP",
+      "Enabled": true
+    }
+  ],
+
+  "Settings": {
+    "Announcement": "Welcome to ProxyVPN!",
+    "Telegram": "https://t.me/your_channel",
+    "AutoReconnect": true,
+    "ShowConnectionLogs": true
+  }
+}
+
